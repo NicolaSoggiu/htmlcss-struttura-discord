@@ -24,6 +24,15 @@ nav{
     display: flex;
 }
 
+.text-left, .text-right{
+    padding-top: .5rem;
+    width: 30%;
+}
+
+.text-left{
+    margin-left: .5rem;
+}
+
 .contenuto{
     border: 1px dashed black;
     width: 40%;
@@ -31,17 +40,9 @@ nav{
     text-align: center;
 }
 
-.text-left{
-    padding-left: .5rem;
-    padding-top: .5rem;
-    width: 30%;
-}
-
 .text-right{
-    padding-top: .5rem;
-    padding-right: .5rem;
-    width: 30%;
     text-align: end;
+    padding-right: .5rem;
 }
 
 .blue{
@@ -81,7 +82,7 @@ nav{
     border: 1px dashed black;
 }
 
-.inverted{
+.inverted, .container-green{
     background-color: #D3D3D3;
 }
 
@@ -104,7 +105,6 @@ nav{
     justify-content: center;
     margin: auto;
     padding-top: 2rem;
-    background-color: #D3D3D3;
 }
 
 .green{
@@ -125,7 +125,7 @@ nav{
     background-color: #23272A;
 }
 
-.black-main{
+.black{
     background-color: green;
     height: calc(70% - 2rem);
     width: 50%;
