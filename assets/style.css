@@ -70,13 +70,13 @@ nav{
 }
 
 
-.left-1{
+.left-1, .right-2{
     flex: 0 0 60%;
     background-color: #1E90FF;
     border: 1px dashed black;
 }
 
-.right-1{
+.right-1, .left-2{
     flex: 0 0 20%;
     background-color: #FFC0CB;
     border: 1px dashed black;
@@ -84,18 +84,6 @@ nav{
 
 .inverted, .container-green{
     background-color: #D3D3D3;
-}
-
-.left-2{
-    flex: 0 0 20%;
-    background-color: #FFC0CB;
-    border: 1px dashed black;
-}
-
-.right-2{
-    flex: 0 0 60%;
-    background-color: #1E90FF;
-    border: 1px dashed black;
 }
 
 .container-green{
