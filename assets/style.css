@@ -22,12 +22,26 @@ nav{
     background-color: #DAA520;
     border: 1px dashed black;
     display: flex;
-    justify-content: space-between;
 }
 
-.text{
+.contenuto{
     border: 1px dashed black;
+    width: 40%;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+.text-left{
     padding-left: .5rem;
+    padding-top: .5rem;
+    width: 30%;
+}
+
+.text-right{
+    padding-top: .5rem;
+    padding-right: .5rem;
+    width: 30%;
+    text-align: end;
 }
 
 main{
