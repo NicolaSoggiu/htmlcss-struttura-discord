@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+}
+
+nav{
+    height: 20%;
+    background-color: #ADD8E6;
+}
+
+main{
+    height: 80%;
+    background-color: #00008B;
+}
