@@ -20,6 +20,14 @@ nav{
     height: 50%;
     margin: auto;       
     background-color: #DAA520;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    border: 1px dashed black;
+    padding-left: .5rem;
 }
 
 main{
@@ -34,6 +42,7 @@ main{
     width: 50%;
     height: 70%;
     background-color: #EE82EE;
+    border: 1px dashed black;
 }
 
 .blocco{
@@ -49,11 +58,13 @@ main{
 .left-1{
     flex: 0 0 60%;
     background-color: #1E90FF;
+    border: 1px dashed black;
 }
 
 .right-1{
     flex: 0 0 20%;
     background-color: #FFC0CB;
+    border: 1px dashed black;
 }
 
 .inverted{
@@ -63,11 +74,13 @@ main{
 .left-2{
     flex: 0 0 20%;
     background-color: #FFC0CB;
+    border: 1px dashed black;
 }
 
 .right-2{
     flex: 0 0 60%;
     background-color: #1E90FF;
+    border: 1px dashed black;
 }
 
 .container-green{
@@ -82,6 +95,7 @@ main{
 
 .green{
     background-color: green;
+    border: 1px dashed black;
     height: 95%;
     width: 50%;
 }
@@ -107,16 +121,17 @@ main{
 .salmon{
     flex: 0 0 40%;
     background-color: salmon;
+    border: 1px dashed black;
 }
 
 .azzurro{
     flex: 0 0 15%;
     background-color: #20B2AA;
-    border: 1px solid black;
+    border: 1px dashed white;
 }
 
 hr{
-    border: 2px solid #9F9F9F;
+    border: 1px solid #9F9F9F;
     width: 100%;
     margin-top: 1.5rem;
 }
@@ -126,4 +141,13 @@ hr{
     height: calc(30% - 2rem);
     background-color: #7FFFD4;
     width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-footer{
+    background-color: salmon;
+    height: max-content;
+    margin-top: 1rem;
+    border: 1px dashed black;
 }
