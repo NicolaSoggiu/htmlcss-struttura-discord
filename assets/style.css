@@ -44,7 +44,7 @@ nav{
     text-align: end;
 }
 
-main{
+.blue{
     height: 80%;
     background-color: #00008B;
     display: flex;
