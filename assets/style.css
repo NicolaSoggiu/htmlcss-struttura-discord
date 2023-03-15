@@ -8,7 +8,7 @@
     height: 400px;
 }
 
-nav{
+.header-nav{
     height: 20%;
     background-color: #ADD8E6;
     display: flex;
@@ -22,6 +22,7 @@ nav{
     background-color: #DAA520;
     border: 1px dashed black;
     display: flex;
+
 }
 
 .text-left, .text-right{
